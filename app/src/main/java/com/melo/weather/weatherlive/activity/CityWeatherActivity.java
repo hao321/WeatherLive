@@ -44,4 +44,9 @@ public class CityWeatherActivity extends AppCompatActivity {
         viewPager.setAdapter(new CityWeatherAdapter(lists));
         viewPager.setCurrentItem(0);
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
