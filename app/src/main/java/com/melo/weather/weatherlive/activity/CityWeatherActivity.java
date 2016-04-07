@@ -48,6 +48,6 @@ public class CityWeatherActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        String test= "test";
+        String test = "";
     }
 }
