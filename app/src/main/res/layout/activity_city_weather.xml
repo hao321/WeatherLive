@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.melo.weather.weatherlive.fragment.SelectCityFragment"
+    android:fitsSystemWindows="false"
+    android:clipToPadding="true"
+    android:background="@drawable/night">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_city"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/day"
+            android:clipToPadding="true"
+            android:fitsSystemWindows="true">
+
+        </android.support.v4.view.ViewPager>
+        <com.melo.weather.weatherlive.view.CityWeatherListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+        </com.melo.weather.weatherlive.view.CityWeatherListView>
+
+    </LinearLayout>
+
+</FrameLayout>

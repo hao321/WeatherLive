@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">实时天气</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="life">生活指数</string>
+    <string name="city">城市天气</string>
+    <string name="set">应用设置</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="footer_weather">天气</string>
+    <string name="footer_life">生活</string>
+    <string name="footer_city">关注</string>
+    <string name="footer_set">设置</string>
+
+</resources>
